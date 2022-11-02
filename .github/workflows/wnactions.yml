@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ github.event_name }} | wnorg"
-      - run: echo "Status: ${{ job.status }}"
+      - run: echo "Status | ${{ job.status }}."
